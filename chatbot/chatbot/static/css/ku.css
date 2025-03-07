@@ -1,0 +1,88 @@
+.ku_restaurant {
+    position: relative;
+    /* margin-top: -35px; */
+    overflow: hidden;
+}
+
+.ku_restaurant.sanhak {
+    position: relative;
+    margin-top: 0;
+}
+
+.ku_restaurant>ol {
+    width: 100%;
+    /* margin-top: -20px; */
+}
+
+.ku_restaurant>ol ul {
+    margin: 0 0 0 214px;
+    overflow: hidden;
+    border-top: 1px solid #d4d4d4;
+    padding: 20px 0 10px;
+}
+
+.ku_restaurant>ol ul li {
+    float: left;
+    padding: 10px 5px 9px 10px;
+}
+
+.ku_restaurant>ol ul li .menuInfo {
+    margin: 0 0 12px;
+}
+
+.ku_restaurant.sanhak>ol li {
+    float: left;
+    width: 100%;
+    padding: 4px 0 13px 0;
+    overflow: hidden;
+    border-top: 0;
+}
+
+.ku_restaurant>ol li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+    border-top: 1px solid #d4d4d4;
+}
+
+/* 첫 번째 li 스타일: 아래쪽 padding만 적용, 위쪽 테두리 제거 */
+
+.ku_restaurant>ol li:first-child {
+    padding-top: 0;
+    /* 위쪽 padding 제거 */
+    border-top: none;
+    /* 위쪽 테두리 제거 */
+}
+
+/* 마지막 li 스타일: 위쪽 padding만 적용 */
+
+.ku_restaurant>ol li:last-child {
+    padding-bottom: 0;
+    /* 아래쪽 padding 제거 */
+}
+
+.ku_restaurant>ol li .day {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: #940034;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ku_restaurant>ol li .date {
+    /* margin-top: -24px; */
+    float: left;
+    color: #940034;
+    padding-left: 6px;
+}
+
+.ku_restaurant>ol li .menulist {
+    /* margin-top: -114px; */
+    margin-left: 90px;
+    display: block;
+    border: none !important;
+}
